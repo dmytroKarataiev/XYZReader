@@ -4,12 +4,8 @@ import android.app.Fragment;
 import android.app.LoaderManager;
 import android.content.Loader;
 import android.database.Cursor;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
-import android.text.Html;
-import android.text.format.DateUtils;
-import android.text.method.LinkMovementMethod;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,18 +30,15 @@ public class ArticleDetailFragment extends Fragment implements
     private static final String TAG = "ArticleDetailFragment";
 
     public static final String ARG_ITEM_ID = "item_id";
-    private static final float PARALLAX_FACTOR = 1.25f;
 
     private Cursor mCursor;
     private long mItemId;
     private View mRootView;
+
+    @Bind(R.id.desc) TextView description;
+    @Bind(R.id.subtitle) TextView subtitle;
     @Bind(R.id.collapsing_toolbar) CollapsingToolbarLayout layout;
-
-    private int mMutedColor = 0xFF333333;
-
-    private ImageView mPhotoView;
-    private boolean mIsCard = false;
-    private int mStatusBarFullOpacityBottom;
+    @Bind(R.id.thumbnail) ImageView mPhotoView;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -70,14 +63,7 @@ public class ArticleDetailFragment extends Fragment implements
             mItemId = getArguments().getLong(ARG_ITEM_ID);
         }
 
-        mIsCard = getResources().getBoolean(R.bool.detail_is_card);
-        mStatusBarFullOpacityBottom = getResources().getDimensionPixelSize(
-                R.dimen.detail_card_top_margin);
         setHasOptionsMenu(true);
-    }
-
-    public ArticleDetailActivity getActivityCast() {
-        return (ArticleDetailActivity) getActivity();
     }
 
     @Override
@@ -106,20 +92,13 @@ public class ArticleDetailFragment extends Fragment implements
             return;
         }
 
-        TextView bylineView = (TextView) mRootView.findViewById(R.id.subtitle);
-        bylineView.setMovementMethod(new LinkMovementMethod());
-        TextView bodyView = (TextView) mRootView.findViewById(R.id.desc);
-        bodyView.setTypeface(Typeface.createFromAsset(getResources().getAssets(), "Rosario-Regular.ttf"));
-
         mPhotoView = (ImageView) mRootView.findViewById(R.id.thumbnail);
 
         if (mCursor != null) {
-            mRootView.setAlpha(0);
-            mRootView.setVisibility(View.VISIBLE);
-            mRootView.animate().alpha(1);
 
             layout.setTitle(mCursor.getString(ArticleLoader.Query.TITLE));
-
+            subtitle.setText(mCursor.getString(ArticleLoader.Query.AUTHOR));
+            /*
             bylineView.setText(Html.fromHtml(
                     DateUtils.getRelativeTimeSpanString(
                             mCursor.getLong(ArticleLoader.Query.PUBLISHED_DATE),
@@ -128,15 +107,18 @@ public class ArticleDetailFragment extends Fragment implements
                             + " by <font color='#ffffff'>"
                             + mCursor.getString(ArticleLoader.Query.AUTHOR)
                             + "</font>"));
-            bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
+                            */
+            //bodyView.setText(Html.fromHtml(mCursor.getString(ArticleLoader.Query.BODY)));
+
+
+            description.setText(mCursor.getString(ArticleLoader.Query.BODY));
 
             Picasso.with(getActivity().getApplicationContext()).load(mCursor.getString(ArticleLoader.Query.PHOTO_URL)).into(mPhotoView);
 
         } else {
-            mRootView.setVisibility(View.GONE);
             layout.setTitle("N/A");
-            bylineView.setText("N/A" );
-            bodyView.setText("N/A");
+            description.setText("N/A");
+            subtitle.setText("N/A");
         }
     }
 
