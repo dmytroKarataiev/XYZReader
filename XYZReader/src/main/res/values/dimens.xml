@@ -8,4 +8,14 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
 
+
+    <!-- list activity dimensions -->
+    <dimen name="appbar_height">56dp</dimen>
+    <dimen name="appbar_elevation">8dp</dimen>
+
+    <!-- list item dimensions -->
+    <dimen name="image_height">100dp</dimen>
+
+    <!-- RecyclerView -->
+    <dimen name="recyclerview_padding">10dp</dimen>
 </resources>

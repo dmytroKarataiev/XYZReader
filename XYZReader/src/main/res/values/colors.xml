@@ -17,9 +17,13 @@
 
 <resources>
     <color name="photo_placeholder">#ccc</color>
-
     <color name="theme_primary">#04561A</color>
     <color name="theme_primary_dark">#04561A</color>
     <color name="theme_accent">#04561A</color>
     <color name="ltgray">#ffe0e0e0</color>
+
+    <!-- actionabar -->
+    <color name="bright_orange">#FF8454</color>
+    <color name="primaryDark">#1A237E</color>
+    <color name="primary">#3F51B5</color>
 </resources>
