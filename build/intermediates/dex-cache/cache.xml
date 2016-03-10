@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f3a3189a228a65d03b3ea92a1b58a2b44bc7366e">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-support-v13-23.2.0_b29bcf9fcd78833a0b721d672f34401d2b451f05.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_8778fa91e586e80ce29a3a25508863371605d071.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_372248484dce1ad9bfe4f50a1df5a894b8fe971c.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_597832593e2f0532605ffe3a55380bd5c08553a3.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_5e6027936cbd9216146b2c20eef6f7d433ba4ae3.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_7ef7a2833fcfd162e30d141ab8633a45affc915d.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_f2dea41f13d38a0a447e2081f564b59beaaebed7.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bc599eb9531da9d18bc58ec4eb0b1a1d895f6839">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.2.0_0d8a3010f4e5b93189e1d78a9e538910bd8ee8a6.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.1.2/7052283359001bb108753cb0583a887d3bf94c82/okhttp-3.1.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7052283359001bb108753cb0583a887d3bf94c82">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/okhttp-3.1.2_d8fd384b2c872c695db526ccf9c6b90968c58246.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_8d90593fb8261ac43cc8a059aff46b1435a0f70e.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_733cc71312b73582d3ab4b6f49bb5dc18e3b8a49.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/okio-1.6.0_446d59e17c1c50f1f15528fa84f4153e11ee26ad.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/volley_ee7fff700b2707c6b67a87b8beea45e90cfd167b.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/support-v13/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58d0010cb4373696cfdc5894c4b23649af58ed18">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_31fce4f999dce093172ba654bc1106c6442d6816.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/palette-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="897400f08e8b3f5e290a5da388973f7cfe700965">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.2.0_1970a4b9ba37a92596c85d200400a14a0974c20c.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_e7da0579b183fa2c778be55375918783e42a7cdc.jar" />
+    </item>
+    <item
+        jar="/Users/karataev/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1_9ea4917fd6dc958a5fcb23d1a71c30438a934416.jar" />
+    </item>
+
+</items>

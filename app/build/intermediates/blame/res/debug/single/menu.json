@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/XYZReader/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/karataev/Dropbox/AndroidDevelopment/XYZReader/XYZReader/src/main/res/menu/main.xml"
+    }
+]
