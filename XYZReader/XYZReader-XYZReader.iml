@@ -86,7 +86,6 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
@@ -107,6 +106,5 @@
     <orderEntry type="library" exported="" name="palette-v7-23.2.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-23.2.0" level="project" />
     <orderEntry type="library" exported="" name="cardview-v7-23.2.0" level="project" />
-    <orderEntry type="library" exported="" name="volley" level="project" />
   </component>
 </module>

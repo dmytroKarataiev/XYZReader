@@ -14,7 +14,9 @@
     <dimen name="appbar_elevation">8dp</dimen>
 
     <!-- list item dimensions -->
-    <dimen name="image_height">100dp</dimen>
+    <dimen name="image_height">150dp</dimen>
+    <dimen name="text_small">13sp</dimen>
+    <dimen name="text_medium">15sp</dimen>
 
     <!-- RecyclerView -->
     <dimen name="recyclerview_padding">10dp</dimen>
