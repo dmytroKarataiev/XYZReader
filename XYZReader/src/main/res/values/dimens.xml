@@ -12,4 +12,9 @@
 
     <!-- RecyclerView -->
     <dimen name="recyclerview_padding">10dp</dimen>
+
+    <!-- CardView -->
+    <dimen name="card_margin">4dp</dimen>
+    <dimen name="textview_padding">16dp</dimen>
+
 </resources>
