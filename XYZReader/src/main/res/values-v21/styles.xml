@@ -16,14 +16,14 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
 
-    <color name="white_text">#FFFFFF</color>
-    <color name="text_shadow">#000000</color>
+    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorAccent">@color/bright_orange</item>
+        <item name="android:windowExitTransition">@transition/grid_exit</item>
+        <item name="android:windowReenterTransition">@android:transition/slide_top</item>
 
+    </style>
 
-    <!-- actionabar -->
-    <color name="bright_orange">#FF8454</color>
-    <color name="primaryDark">#1A237E</color>
-    <color name="primary">#3F51B5</color>
 </resources>
