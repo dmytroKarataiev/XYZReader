@@ -1,3 +1,27 @@
+/*
+ * MIT License
+ *
+ * Copyright (c) 2016. Dmytro Karataiev.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 package com.example.xyzreader.ui;
 
 import android.app.ActivityOptions;
@@ -31,10 +55,10 @@ import com.squareup.picasso.Picasso;
 /**
  * An activity representing a list of Articles. This activity has different presentations for
  * handset and tablet-size devices. On handsets, the activity presents a list of items, which when
- * touched, lead to a {@link ArticleDetailActivity} representing item details. On tablets, the
+ * touched, lead to a {@link DetailActivity} representing item details. On tablets, the
  * activity presents a grid of items as cards.
  */
-public class ArticleListActivity extends AppCompatActivity implements
+public class ListActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
 
     private SwipeRefreshLayout mSwipeRefreshLayout;
@@ -147,7 +171,8 @@ public class ArticleListActivity extends AppCompatActivity implements
 
                     // Shared Transitions for SDK >= 21
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        @SuppressWarnings("unchecked") Bundle bundle = ActivityOptions.makeSceneTransitionAnimation(ArticleListActivity.this).toBundle();
+                        @SuppressWarnings("unchecked") Bundle bundle = ActivityOptions
+                                .makeSceneTransitionAnimation(ListActivity.this).toBundle();
                         startActivity(new Intent(Intent.ACTION_VIEW,
                                 ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))), bundle);
                     } else {
@@ -175,7 +200,9 @@ public class ArticleListActivity extends AppCompatActivity implements
 
             holder.subtitleView.setText(author);
 
-            Picasso.with(getApplicationContext()).load(mCursor.getString(ArticleLoader.Query.THUMB_URL)).into(holder.thumbnailView);
+            Picasso.with(getApplicationContext())
+                    .load(mCursor.getString(ArticleLoader.Query.THUMB_URL))
+                    .into(holder.thumbnailView);
             holder.thumbnailView.setContentDescription(title);
         }
 

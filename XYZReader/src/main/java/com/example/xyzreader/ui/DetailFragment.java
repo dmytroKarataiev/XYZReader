@@ -1,3 +1,27 @@
+/*
+ * MIT License
+ *
+ * Copyright (c) 2016. Dmytro Karataiev.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 package com.example.xyzreader.ui;
 
 import android.app.Fragment;
@@ -23,12 +47,12 @@ import com.squareup.picasso.Picasso;
 
 /**
  * A fragment representing a single Article detail screen. This fragment is
- * either contained in a {@link ArticleListActivity} in two-pane mode (on
- * tablets) or a {@link ArticleDetailActivity} on handsets.
+ * either contained in a {@link ListActivity} in two-pane mode (on
+ * tablets) or a {@link DetailActivity} on handsets.
  */
-public class ArticleDetailFragment extends Fragment implements
+public class DetailFragment extends Fragment implements
         LoaderManager.LoaderCallbacks<Cursor> {
-    private static final String TAG = "ArticleDetailFragment";
+    private static final String TAG = "DetailFragment";
 
     public static final String ARG_ITEM_ID = "item_id";
 
@@ -43,14 +67,14 @@ public class ArticleDetailFragment extends Fragment implements
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public ArticleDetailFragment() {
+    public DetailFragment() {
     }
 
-    public static ArticleDetailFragment newInstance(long itemId, String title) {
+    public static DetailFragment newInstance(long itemId, String title) {
         Bundle arguments = new Bundle();
         arguments.putLong(ARG_ITEM_ID, itemId);
         arguments.putString("title", title);
-        ArticleDetailFragment fragment = new ArticleDetailFragment();
+        DetailFragment fragment = new DetailFragment();
         fragment.setArguments(arguments);
         return fragment;
     }
