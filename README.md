@@ -1,7 +1,7 @@
 # XYZ Reader - Project 5 Android Nanodegree
 * Redesigned the app to follow Material Design guidelines.
 
-<img src="http://adkdevelopment.com/download/photos/builditbigger1.gif" alt="alt text" style="width:200;height:200">
+![XYZ](xyz.gif)
 
 ## Implemented
 * Applied Material Design guidelines to the application.
